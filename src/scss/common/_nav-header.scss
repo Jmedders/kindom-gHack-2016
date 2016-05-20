@@ -1,33 +1,37 @@
 #nav-header{
 
-  height: 80px;
-  line-height: 80px;
+  height: 40px;
+  line-height: 50px;
 
   header{
-    float: left;
-
 
     span{
+      float: left;
       font-size: 3em;
+      margin-left: 44%;
     }
   }
 
 
   nav{
     float: right;
+    margin-top: 2px;
+    margin-right: 10px;
 
     a{
-      color: DodgerBlue;
+      color: Crimson;
+      font-size: 1.5em;
       transition: all 0.1s;
+      padding: 4.0px;
 
       &:hover{
-        color: Crimson;
+        color: #FF3800;
         text-decoration: none;
       }
     }
 
     .active-link{
-      color: FireBrick;
+      color: #009383;
     }
 
   }

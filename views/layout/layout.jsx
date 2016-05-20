@@ -17,7 +17,7 @@ export default class Layout extends Component{
         <body className="container-fluid">
 
           <div id="nav-header">
-            
+
             <header>
               <span>Kingdom</span>
             </header>
@@ -27,7 +27,7 @@ export default class Layout extends Component{
               <span> | </span>
               <a href="/auth" >Login/Signup</a>
             </nav>
-            
+
           </div>
 
           <main>
@@ -35,6 +35,7 @@ export default class Layout extends Component{
           </main>
 
           <script src="js/active-link.js"></script>
+          <script src="js/eventBoxes.js"></script>
         </body>
       </html>
     )
