@@ -33,7 +33,9 @@ export default class Layout extends Component{
           <main>
             {this.props.children}
           </main>
-
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGCCxLOiPANGpNZzVA0NSL1_BLns4MXKY&libraries=places&callback=initAutocomplete"
+          async defer></script>
+          <script src="js/map.js"></script>
           <script src="js/active-link.js"></script>
           <script src="js/eventBoxes.js"></script>
         </body>
