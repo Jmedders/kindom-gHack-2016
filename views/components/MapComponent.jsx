@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MapComponent = props => (
-    <div id="map-box">
+    <div id="map">
     <div id="stats">
     A   C   K
     </div>
