@@ -1,3 +1,3 @@
-$(".player-info-box").click(function(event){
-  console.log(event.target);
-});
+// $(".player-info-box").click(function(event){
+//
+// });
